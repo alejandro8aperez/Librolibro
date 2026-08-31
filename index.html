@@ -80,7 +80,7 @@
       .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
       .hero-cover { position: relative; display: flex; justify-content: center; }
       .hero-cover .shadow { position: absolute; inset: 0; transform: translate(12px,12px); background: rgba(122,78,45,.15); border-radius: 2px; }
-      .hero-cover img { position: relative; width: min(17rem, 68vw); aspect-ratio: 2/3; object-fit: cover; border-radius: 2px; box-shadow: 0 25px 50px -12px rgba(0,0,0,.4); }
+      .hero-cover img { position: relative; width: min(17rem, 68vw); height: auto; object-fit: contain; border-radius: 2px; box-shadow: 0 25px 50px -12px rgba(0,0,0,.4); }
 
       /* Sections */
       section { padding: 96px 0; }
@@ -92,8 +92,8 @@
       /* Featured */
       .synopsis { display: grid; grid-template-columns: 1fr; gap: 48px; align-items: center; margin-bottom: 96px; }
       .synopsis .cover-wrap { position: relative; display: flex; justify-content: center; }
-      .synopsis .cover-wrap .shadow { position: absolute; inset: 0; transform: translate(12px,12px); background: rgba(122,78,45,.15); border-radius: 2px; width: min(17rem,68vw); aspect-ratio: 2/3; margin: 0 auto; }
-      .synopsis img { position: relative; width: min(17rem,68vw); aspect-ratio: 2/3; object-fit: cover; border-radius: 2px; box-shadow: 0 25px 50px -12px rgba(0,0,0,.4); }
+      .synopsis .cover-wrap .shadow { position: absolute; inset: 0; transform: translate(12px,12px); background: rgba(122,78,45,.15); border-radius: 2px; margin: 0 auto; }
+      .synopsis img { position: relative; width: min(17rem,68vw); height: auto; object-fit: contain; border-radius: 2px; box-shadow: 0 25px 50px -12px rgba(0,0,0,.4); }
       .stats { display: flex; gap: 32px; margin-bottom: 32px; }
       .stats .v { font-family: "Playfair Display", serif; font-size: 30px; color: var(--accent); }
       .stats .l { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
@@ -244,7 +244,7 @@
           <div class="hero-cover">
             <div style="position:relative;">
               <div class="shadow"></div>
-              <img src="https://media.base44.com/images/public/6a95a7c9d93c21f3b304449f/3449fe6c0_Portadafrontal.png" alt="MARATONaide — Portada" />
+              <img src="portada.png" alt="MARATONaide — Portada" />
             </div>
           </div>
         </div>
@@ -263,7 +263,7 @@
         <div class="synopsis">
           <div class="cover-wrap order2">
             <div class="shadow"></div>
-            <img src="https://media.base44.com/images/public/6a95a7c9d93c21f3b304449f/3449fe6c0_Portadafrontal.png" alt="MARATONaide — Portada" />
+            <img src="portada.png" alt="MARATONaide — Portada" />
           </div>
           <div class="order1">
             <div class="stats">
